@@ -8,7 +8,7 @@ World worldOfLegends;//world containing the legends, used for training the legen
 int speed = 30;//the frame rate
 
 //booleans used to control the game state
-boolean showAll = true;//whether to show all the snakes in the generation or just the current best snake
+boolean showAll = false;//whether to show all the snakes in the generation or just the current best snake
 boolean trainLegendSnakes = false; //true if training the legends i.e. if running worldOfLegends
 boolean showingLegend = false;//true if testing just one legend
 boolean fusionGo =false;//true if testing the snake fusion 
